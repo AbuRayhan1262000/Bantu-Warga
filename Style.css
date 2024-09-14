@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar-area{
+    height: 70px;
+    background-color:whitesmoke;
+}
+.navbar-area .navbar-container{
+    height: 70px;
+    width: 1200px;
+    background: whitesmoke;
+    margin: 0px auto;
+    display: flex;
+}
+.navbar-container .logo{
+    width:200px;
+    height: 70px;
+    background: whitesmokeF;
+    text-align: center;
+    
+}
+.navbar-container .logo img{
+    height: 60px;
+    width: 100px;
+}
+.navbar-container .menu{
+    width: 500px;
+    height: 70px;
+    background: whitesmoke;
+} 
+.navbar-container .menu ul {
+    display: flex;
+    margin-left:50px;
+}
+.navbar-container .menu ul li{
+    font-size:18px;
+    margin:24px 20px;
+}
+.navbar-container .menu ul li:hover a{
+    text-decoration: underline 3px solid #5669FF;
+    color:#5669FF;
+    transition: all linear 0.1s;
+}
+.navbar-container .btn-div{
+    width: 150px;
+    height: 70px;
+    background: whitesmoke;
+    margin-left:350px;
+
+}
+.navbar-container .btn-div .btn{
+    padding: 10px;
+    margin:16px 0px 16px 62px;
+    font-size: 14px;
+    border-radius: 7px;
+    transition: all linear 0.2s;
+}
+.navbar-container .btn-div .btn:hover{
+    background: #5669FF;
+    cursor:pointer;
+}
