@@ -299,5 +299,78 @@ a{
     height: 40px;
 }
 
-
 /* get app area end */
+/* information area start */
+.information-area{
+    height: 340px;
+   background-color: darkolivegreen;
+}
+.information-area .information-container{
+    height: 340px;
+    width: 1200px;
+    background-color: darkblue;
+    margin:0 auto;
+    display: flex;
+}
+.information-container .information-text{
+    height: 340px;
+    width:600px;
+    background-color: darkmagenta;
+}
+.information-container .information-text .information-para{
+    font-size:18px;
+    position:relative;
+    top: 15px;
+    left:100px;
+}
+.information-container .information-text .heading-color{
+    color:#5669FF;
+ 
+}
+.information-container .information-text .information-heading{
+    font-size: 40px;
+    position:relative;
+    top:15px;
+    left:100px;
+}
+.information-text .single-information{
+    display: flex;
+    margin-top:30px;
+    margin-left: 100px;
+}
+.information-text .single-information .single-para{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.information-text .single-information img{
+    margin-right: 10px;
+    height: 25px;
+}
+.information-text .btn{
+    padding:8px 12px;
+    border-radius: 10px;
+    margin-top:20px;
+    cursor: pointer;
+    margin-left:135px;
+}
+.information-text .btn:hover{
+    background-color: #5669FF;
+}
+.information-container .information-banner{
+    height: 340px;
+    width: 600px;
+    background-color: darkgreen;
+}
+.information-banner .Berita-page{
+    height: 335px;
+    width: 220px;
+    position: relative;
+    left:150px;
+}
+.information-banner .date-page{
+    height: 280px;
+    width:220px;
+}
+
+/* information area end */
