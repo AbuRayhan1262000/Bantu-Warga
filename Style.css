@@ -12,6 +12,7 @@ a{
 .navbar-area{
     height: 70px;
     background-color:whitesmoke;
+   
 }
 .navbar-area .navbar-container{
     height: 70px;
@@ -19,6 +20,7 @@ a{
     background: whitesmoke;
     margin: 0px auto;
     display: flex;
+   
 }
 .navbar-container .logo{
     width:200px;
@@ -67,3 +69,235 @@ a{
     background: #5669FF;
     cursor:pointer;
 }
+/* hero area start */
+.hero-area{
+   height:420px;
+   background-color:blanchedalmond;
+}
+.hero-area .hero-container{
+    width: 1200px;
+    height: 420px;
+    margin: 0 auto;
+    background-color: brown;
+    display: flex;
+}
+.hero-container .hero-text{
+    width: 600px;
+    height:420px;
+    background-color: cadetblue;
+}
+.hero-text .text-part{
+    position: relative;
+    width: 300px;
+    top: 100px;
+    left:100px;
+}
+.hero-text .text-part img{
+    height: 25px;
+}
+.hero-text .text-part .text-heading{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.hero-text .input-part{
+    position: relative;
+    top:120px;
+    left:100px;
+}
+.hero-text .input-part input{
+    padding:8px 10px;
+    position: relative;
+}
+.hero-text .input-part button{
+    position:absolute;
+    left:150px;
+    top:5.5px;
+    padding:2px 8px;
+    border-radius:5px;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+.hero-text .input-part button:hover{
+    background-color: #5669FF;
+}
+.hero-text .color-part{
+    color:#6172FF;
+}
+.hero-container .hero-banner{
+    width: 600px;
+    height: 420px;
+    background-color:yellowgreen;
+    position: relative;
+}
+.hero-container .hero-banner .img-1{
+    height:420px;
+    width:300px;
+    rotate: 10deg;
+    position: absolute;
+    left:150px;
+}
+.hero-container .hero-banner .img-2{
+    height:420px;
+    width:300px;
+    rotate: 5deg;
+    position:absolute;
+    left:300px;
+    
+}
+/* hero area end */
+/* service area start */
+.service-area{
+    height: 530px;
+    background-color:gold;
+}
+.service-area .service-container{
+    height: 530px;
+    width: 1200px;
+    margin:0px auto;
+    background-color: chocolate;
+}
+.service-container .service-text
+{
+    text-align: center;
+}
+.service-text .sevice-heading{
+    font-size: 40px;
+}
+.service-text .sevice-heading .heading-color{
+    color:#6B7CFF;
+}
+.service-text .service-para{
+    font-size: 15px;
+}
+.service-container .service-icon{
+    height: 370px;
+    width: 1200px;
+    background-color:blueviolet;
+    margin-top: 20px;
+    
+}
+.service-icon .service-icon-part-1{
+    height: 180px;
+    width: ;
+    background-color: darkred;
+    display: flex;
+    margin-bottom: 10px;
+}
+.service-icon-part-1 .single-service-icon{
+    width:375px;
+    background-color: cyan;
+    margin: 0px 18.75px;
+    text-align: center;
+}
+.service-icon .service-icon-part-2{
+    height: 180px;
+    width: ;
+    background-color: crimson;
+    display: flex;
+}
+.service-icon-part-2 .single-service-icon{
+    width:375px;
+    background-color: rgb(21, 255, 0);
+    margin: 0px 18.75px;
+    text-align:center;
+}
+.single-service-icon img{
+    margin-top:20px;
+}
+.single-service-icon .service-icon-heading{
+    margin-top:10px;
+}
+.single-service-icon .service-para{
+    margin-top:10px;
+    font-size: 15px;
+}
+.service-container .service-button{
+    height: 60px;
+    width: 1200px;
+    background-color: chartreuse;
+    text-align: center;
+}
+.service-container .service-button .btn{
+    padding:8px 12px;
+    border-radius: 10px;
+    margin-top:20px;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+.service-container .service-button .btn:hover{
+    background-color:#5669FF;
+}
+/* service area end */
+/* get app area start */
+.get-app-area{
+    height:500px;
+    background-color: chocolate;
+}
+.get-app-area .get-app-container{
+    height: 500px;
+    width: 1200px;
+    background-color: cadetblue;
+    margin:0 auto;
+    display: flex;
+}
+.get-app-container .get-app-banner{
+    height: 500px;
+    width:600px;
+    background-color:cyan;
+    position: relative;
+
+}
+.get-app-banner .banner-holder{
+    height: 380px;
+    width: 380px;
+    background-color: coral;
+    border-radius:100%;
+    position: absolute;
+    bottom: 0;
+    left:100px;
+}
+.get-app-banner .banner-holder img{
+    height: 440px;
+    width: 250px;
+    position: absolute;
+    left:65px;
+    top:-110px;
+}
+.get-app-container .get-app-text{
+    height:500px;
+    width: 600px;
+    background-color: crimson;
+}
+.get-app-container .get-app-text .heading-color{
+    color:#5669FF;
+
+}
+.get-app-container .get-app-text .download-para{
+    margin-top:200px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+.get-app-container .get-app-text .get-app-heading{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.get-app-container .get-app-text .get-app-text-para{
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.get-app-text .text-banner{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.get-app-text .text-banner .playstore{
+    height: 40px;
+    margin-right: 15px;
+}
+.get-app-text .text-banner .app-store{
+    height: 40px;
+}
+
+
+/* get app area end */
