@@ -27,6 +27,7 @@ a{
     height: 70px;
     background:;
     text-align: center;  
+    cursor: pointer;
 }
 .navbar-container .logo img{
     height: 60px;
@@ -146,13 +147,13 @@ a{
 /* service area start */
 .service-area{
     height: 530px;
-    background-color:gold;
+    background-color:;
 }
 .service-area .service-container{
     height: 530px;
     width: 1200px;
     margin:0px auto;
-    background-color: chocolate;
+    background-color:;
 }
 .service-container .service-text
 {
@@ -170,34 +171,44 @@ a{
 .service-container .service-icon{
     height: 370px;
     width: 1200px;
-    background-color:blueviolet;
+    background-color:;
     margin-top: 20px;
     
 }
 .service-icon .service-icon-part-1{
     height: 180px;
     width: ;
-    background-color: darkred;
+    background-color:;
     display: flex;
     margin-bottom: 10px;
 }
 .service-icon-part-1 .single-service-icon{
     width:375px;
-    background-color: cyan;
+    background-color:#FFFFFF;
+    box-shadow:1px 1px 1px 1px whitesmoke inset;
+    border: 1px solid whitesmoke;
     margin: 0px 18.75px;
     text-align: center;
+}
+.service-icon-part-1 .single-service-icon:hover{
+    border:4px solid #5669FF;
 }
 .service-icon .service-icon-part-2{
     height: 180px;
     width: ;
-    background-color: crimson;
+    background-color:;
     display: flex;
 }
 .service-icon-part-2 .single-service-icon{
     width:375px;
-    background-color: rgb(21, 255, 0);
+    background-color:#FFFFFF;
+    box-shadow:1px 1px 1px 1px whitesmoke inset;
+    border: 1px solid whitesmoke;
     margin: 0px 18.75px;
     text-align:center;
+}
+.service-icon-part-2 .single-service-icon:hover{
+    border:4px solid #5669FF;
 }
 .single-service-icon img{
     margin-top:20px;
@@ -212,7 +223,7 @@ a{
 .service-container .service-button{
     height: 60px;
     width: 1200px;
-    background-color: chartreuse;
+    background-color:;
     text-align: center;
 }
 .service-container .service-button .btn{
@@ -229,26 +240,26 @@ a{
 /* get app area start */
 .get-app-area{
     height:500px;
-    background-color: chocolate;
+    background-color:;
 }
 .get-app-area .get-app-container{
     height: 500px;
     width: 1200px;
-    background-color: cadetblue;
+    background-color:;
     margin:0 auto;
     display: flex;
 }
 .get-app-container .get-app-banner{
     height: 500px;
     width:600px;
-    background-color:cyan;
+    background-color:;
     position: relative;
 
 }
 .get-app-banner .banner-holder{
     height: 380px;
     width: 380px;
-    background-color: coral;
+    background-color:#5669FF;
     border-radius:100%;
     position: absolute;
     bottom: 0;
@@ -264,7 +275,7 @@ a{
 .get-app-container .get-app-text{
     height:500px;
     width: 600px;
-    background-color: crimson;
+    background-color:;
 }
 .get-app-container .get-app-text .heading-color{
     color:#5669FF;
@@ -292,21 +303,23 @@ a{
 .get-app-text .text-banner .playstore{
     height: 40px;
     margin-right: 15px;
+    cursor:pointer;
 }
 .get-app-text .text-banner .app-store{
     height: 40px;
+    cursor:pointer;
 }
 
 /* get app area end */
 /* information area start */
 .information-area{
     height: 340px;
-   background-color: darkolivegreen;
+   background-color:;
 }
 .information-area .information-container{
     height: 340px;
     width: 1200px;
-    background-color: darkblue;
+    background-color:;
     margin:0 auto;
     display: flex;
     
@@ -314,7 +327,7 @@ a{
 .information-container .information-text{
     height: 340px;
     width:600px;
-    background-color: darkmagenta;
+    background-color:;
 }
 .information-container .information-text .information-para{
     font-size:18px;
@@ -359,7 +372,7 @@ a{
 .information-container .information-banner{
     height: 340px;
     width: 600px;
-    background-color: darkgreen;
+    background-color:;
 }
 .information-banner .Berita-page{
     height: 335px;
@@ -454,6 +467,7 @@ margin-left:-70px;
 }
 .contact-single-icon i{
     margin-right: 10px;
+    cursor: pointer;
 }
 .contact-text .group-icon{
     margin-left: -400px;
@@ -461,6 +475,7 @@ margin-left:-70px;
 }
 .contact-text .group-icon i{
     margin-right:12px ;
+    cursor: pointer;
 }
 .contact-text iframe{
     height: 120px;
@@ -538,6 +553,7 @@ margin-left:-70px;
 }
 .bottom-footer .footer-icon .icon-group i{
     margin:15px 15px;
+    cursor: pointer;
 }
 .bottom-footer .footer-copyright{
     height:50px ;
