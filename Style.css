@@ -11,23 +11,22 @@ a{
 }
 .navbar-area{
     height: 70px;
-    background-color:whitesmoke;
-   
+    background-color:#FFFFFF;
+    box-shadow: 2px 2px 2px 1px whitesmoke inset;
+    border: 2px solid whitesmoke;  
 }
 .navbar-area .navbar-container{
     height: 70px;
     width: 1200px;
-    background: whitesmoke;
+    background:;
     margin: 0px auto;
     display: flex;
-   
 }
 .navbar-container .logo{
     width:200px;
     height: 70px;
-    background: whitesmokeF;
-    text-align: center;
-    
+    background:;
+    text-align: center;  
 }
 .navbar-container .logo img{
     height: 60px;
@@ -36,7 +35,7 @@ a{
 .navbar-container .menu{
     width: 500px;
     height: 70px;
-    background: whitesmoke;
+    background:;
 } 
 .navbar-container .menu ul {
     display: flex;
@@ -54,9 +53,8 @@ a{
 .navbar-container .btn-div{
     width: 150px;
     height: 70px;
-    background: whitesmoke;
+    background: ;
     margin-left:350px;
-
 }
 .navbar-container .btn-div .btn{
     padding: 10px;
@@ -72,19 +70,19 @@ a{
 /* hero area start */
 .hero-area{
    height:420px;
-   background-color:blanchedalmond;
+   background-color:#FFFFFF;
 }
 .hero-area .hero-container{
     width: 1200px;
     height: 420px;
     margin: 0 auto;
-    background-color: brown;
+    background-color: ;
     display: flex;
 }
 .hero-container .hero-text{
     width: 600px;
     height:420px;
-    background-color: cadetblue;
+    background-color: ;
 }
 .hero-text .text-part{
     position: relative;
@@ -126,7 +124,7 @@ a{
 .hero-container .hero-banner{
     width: 600px;
     height: 420px;
-    background-color:yellowgreen;
+    background-color:;
     position: relative;
 }
 .hero-container .hero-banner .img-1{
@@ -311,6 +309,7 @@ a{
     background-color: darkblue;
     margin:0 auto;
     display: flex;
+    
 }
 .information-container .information-text{
     height: 340px;
@@ -372,5 +371,101 @@ a{
     height: 280px;
     width:220px;
 }
-
 /* information area end */
+/* contact area start */
+.contact-area{
+    height: 350px;
+    width: ;
+    background-color:;
+}
+.contact-area .contact-container{
+    height: 350px;
+    width: 1200px;
+    background-color:;
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    box-shadow:3px 3px 2px 2px whitesmoke inset;
+    border:2px solid whitesmoke;
+}
+.contact-container .contact-heading{
+    width: 100px;
+    position:relative;
+    top:15px;
+    left:550px; 
+    font-size:25px;
+}
+.contact-container .contact-form{
+    height: 300px;
+    width: 600px;
+    background-color:;
+    position: relative;
+    top:50px;
+}
+.contact-container .contact-form .form-heading{
+    margin-left:-215px;
+}
+.contact-form form{
+    margin-left: 100px;
+    position: relative;
+}
+.contact-form form .single-form{
+    margin-top: 20px;
+    position: absolute;
+}
+.contact-form form .single-form input{
+    padding: 5px 18px;
+}
+.contact-form form textarea{
+    top:70px;
+    left:-127px;
+    position: relative;
+}
+.contact-form form .single-form button{
+    padding: 5px 85px;
+    margin-top:100px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.contact-form form .single-form button:hover{
+    background-color:#5669FF;
+}
+.contact-form form fieldset{
+    width: 200px;
+}
+form fieldset legend{
+margin-left:-70px;
+}
+.contact-form form .input-name input{
+    padding: 5px 10px;
+    border:none;
+}
+.contact-container .contact-text{
+    height:300px ;
+    width:600px;
+    background-color:;
+    position: relative;
+    top:50px;
+}
+.contact-text .contact-single-icon{
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+}
+.contact-single-icon i{
+    margin-right: 10px;
+}
+.contact-text .group-icon{
+    margin-left: -400px;
+    margin-top: 15px;
+}
+.contact-text .group-icon i{
+    margin-right:12px ;
+}
+.contact-text iframe{
+    height: 120px;
+    width: 300px;
+    margin-left: -220px;
+    margin-top: 20px;
+}
+/* contact area end */
